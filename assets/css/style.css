@@ -2,23 +2,30 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    border: 0;
+    padding: 0;
+    margin: 0;
 }
 
 /* -------------------------------------------------------------------------------------------------------NavBar Formatting */
 
 .navbar {
-    margin-bottom: 0;
     width: 100%;
     background-color: rgba(0,0,0,0);
     position: fixed;
-    border-bottom: 1px solid #fafafa;
     z-index: 1;
 }
 
 .navbar.scrolled {
   background-color: rgba(50,50,50,0.90) !important;
   transition: background-color 400ms linear;
+  position: fixed;
+  width: 100%;
   border: 0;
+}
+
+.show {
+    background-color: rgba(50,50,50,0.90)
 }
 
 .navbar .navbar-toggler {
@@ -43,17 +50,14 @@ body {
 }
 
 
-.navbar ul li {
-    margin: 10px;
-}
-
-.navbar ul a {
+.menu-item {
+    padding: 5px;
     color: #fafafa;
     border: 1px solid rgba(0,0,0,0);
-    border-radius: 10px;
+    border-radius: 25%;
 }
 
-.navbar ul a:hover {
+.menu-item:hover {
     border: 1px solid #fafafa;
     border-radius: 10px;
 }
@@ -62,8 +66,9 @@ body {
 /* -------------------------------------------------------------------------------------------------------Home Image */
 
 .home-image-container {
+    padding: 0;
     height: 100vh;
-    background: url("../images/hero-image.jpg") no-repeat bottom right fixed; 
+    background: url("../images/hero-image.jpg") no-repeat center bottom fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -73,7 +78,12 @@ body {
     align-items: center;
     justify-content: center;
 
-    position: relative;
+    position: absolute;
+}
+
+.home-image-container:active {
+    transform: scale(1.2);
+    transition: all .5s;
 }
 
 .opaque-overlay {
@@ -85,23 +95,60 @@ body {
     background-color: rgba(0,0,0,0.5);
 }
 
+.home-image {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 .jumbotron {
     background-color: transparent;
 }
 
 .jumbotron-header {
     font-family: "Rubik", sans-serif;
-    color: white;
-    letter-spacing: 5px;
+    color: #fafafa;
+    font-size: 4vw;
     font-weight: 400;
-    margin-bottom: 30px;
+    padding: 0;
+    margin-bottom: 10px;
 }
+
+.jumbotron .lead {
+    font-family: "Rubik", sans-serif;
+    color: #fafafa;
+    letter-spacing: 5px;
+    font-size: 2vw;
+    font-weight: 400;
+    margin-bottom: 30vh;
+
+    animation-name: home-message-color-change;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
 
 .jumbotron-IQ {
     font-family: "Rubik", sans-serif;
     letter-spacing: 5px;
     font-weight: 900;
-    color: #E74C3C;
+    color: #fafafa;
+
+    animation-name: home-message-color-change;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes home-message-color-change {
+    from {
+        color: #fafafa;
+    }
+    to {
+        color: #E74C3C;
+    }
 }
 
 
@@ -109,5 +156,8 @@ body {
 
 .empty-div {
     height: 600px;
-    border: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 0;
+    z-index: 1;
 }
