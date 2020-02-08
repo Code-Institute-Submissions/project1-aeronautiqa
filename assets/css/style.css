@@ -34,7 +34,7 @@ body {
 
 .navbar-brand {
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 200;
     color: #fafafa;
 }
 
@@ -45,7 +45,7 @@ body {
 
 .IQ-highlight {
     font-family: "Rubik", sans-serif;
-    font-weight: 900;
+    font-weight: 500;
     color: #E74C3C;
 }
 
@@ -99,10 +99,11 @@ body {
     background-color: transparent;
 }
 
-.jumbotron-header {
+.jumbotron h1 {
     font-family: "Rubik", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 100;
     color: #fafafa;
-    font-weight: 400;
     padding: 0;
     margin-bottom: 10px;
 }
@@ -111,7 +112,7 @@ body {
     font-family: "Rubik", sans-serif;
     color: #fafafa;
     font-size: 26px;
-    font-weight: 400;
+    font-weight: 200;
     text-transform: uppercase;
 
     animation-name: home-message-color-change;
@@ -122,15 +123,18 @@ body {
 
 .more-info {
     margin-top: 25px;
-    margin-bottom: 5vh;
     color: #fafafa;
     font-size: 16px;
     text-transform: uppercase;
 }
 
+.more-info i {
+    font-size: 30px;
+}
+
 .jumbotron-IQ {
     font-family: "Rubik", sans-serif;
-    font-weight: 900;
+    font-weight: 500;
     color: #fafafa;
 
     animation-name: home-message-color-change;
