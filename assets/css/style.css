@@ -58,8 +58,7 @@ body {
 }
 
 .menu-item:hover {
-    border: 1px solid #fafafa;
-    border-radius: 10px;
+    color: #E74C3C;
 }
 
 
@@ -68,7 +67,7 @@ body {
 .home-image-container {
     padding: 0;
     height: 100vh;
-    background: url("../images/hero-image.jpg") no-repeat center bottom fixed; 
+    background: url("../images/hero-image.jpg") no-repeat top center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -79,11 +78,6 @@ body {
     justify-content: center;
 
     position: relative;
-}
-
-.home-image-container:active {
-    transform: scale(1.2);
-    transition: all .5s;
 }
 
 .opaque-overlay {
@@ -108,36 +102,40 @@ body {
 .jumbotron-header {
     font-family: "Rubik", sans-serif;
     color: #fafafa;
-    font-size: 4vw;
     font-weight: 400;
     padding: 0;
     margin-bottom: 10px;
 }
 
-.jumbotron .lead {
+.jumbotron .lead{
     font-family: "Rubik", sans-serif;
     color: #fafafa;
-    letter-spacing: 5px;
-    font-size: 2vw;
+    font-size: 26px;
     font-weight: 400;
-    margin-bottom: 30vh;
+    text-transform: uppercase;
 
     animation-name: home-message-color-change;
-    animation-delay: 1s;
-    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
+.more-info {
+    margin-top: 25px;
+    margin-bottom: 5vh;
+    color: #fafafa;
+    font-size: 16px;
+    text-transform: uppercase;
+}
 
 .jumbotron-IQ {
     font-family: "Rubik", sans-serif;
-    letter-spacing: 5px;
     font-weight: 900;
     color: #fafafa;
 
     animation-name: home-message-color-change;
-    animation-delay: 1s;
-    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
