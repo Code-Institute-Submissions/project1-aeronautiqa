@@ -50,14 +50,49 @@ body {
 }
 
 
-.menu-item {
+.main-menu ul {
+    margin-right: 30px;
+}
+
+.main-menu li {
     padding: 5px;
+}
+
+
+.language ul {
+    margin: 0;
+    padding: 0;
+}
+
+.language li {
+    margin: 0;
+    padding: 0;
+}
+
+.language .nav-link {
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    text-align: center;
+}
+
+.language .list-inline-item {
+    margin-right: 4px;
+}
+
+.menu-item {
     color: #fafafa;
+}
+
+.active {
+    color: #E74C3C;
+    font-weight: 400;
 }
 
 .menu-item:hover {
     color: #E74C3C;
 }
+
 
 
 /* -------------------------------------------------------------------------------------------------------Home Image */
@@ -138,6 +173,16 @@ body {
         color: #E74C3C;
     }
 }
+
+.jumbotron .lead-text {
+    font-family: "Rubik", sans-serif;
+    color: #fafafa;
+    font-size: 2px;
+    font-weight: 100;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 
 .more-info {
     margin-top: 25px;
