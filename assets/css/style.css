@@ -239,6 +239,10 @@ body {
     text-decoration: none;
 }
 
+.expertise-image img {
+    transition: transform .5s ease;
+}
+
 .expertise-image:hover a {
     font-family: "Roboto", sans-serif;
     color: #E74C3C;
