@@ -240,7 +240,7 @@ body {
 }
 
 .expertise-image img {
-    transition: transform .5s ease;
+    transition: transform 1s ease;
 }
 
 .expertise-image:hover a {
