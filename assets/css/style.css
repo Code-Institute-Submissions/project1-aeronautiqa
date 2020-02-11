@@ -16,6 +16,7 @@ body {
     z-index: 2;
 }
 
+
 .navbar.scrolled {
   background-color: rgba(50,50,50,0.90) !important;
   transition: background-color 400ms linear;
@@ -26,7 +27,18 @@ body {
 }
 
 .show {
-    background-color: rgba(50,50,50,0.90)
+    background-color: rgba(50,50,50,0.90);
+}
+
+.collapsed {
+    background-color: rgba(0,0,0,0);
+}
+
+@media (min-width: 992px) {
+.navbar-expand-lg .show,
+.navbar-expand-lg .collapsed {
+    background-color: rgba(0,0,0,0);
+}
 }
 
 .navbar .navbar-toggler {
