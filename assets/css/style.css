@@ -13,7 +13,7 @@ body {
     width: 100%;
     background-color: rgba(0,0,0,0);
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 
 .navbar.scrolled {
@@ -22,7 +22,7 @@ body {
   position: fixed;
   width: 100%;
   border: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 .show {
@@ -203,8 +203,9 @@ body {
 
 .expertise-text {
     font-family: "Roboto", sans-serif;
-    background-color: white;
+    background-color: #fafafa;
     max-width: 100%;
+    min-height: 150px;
     z-index: 1;
     position: relative;
     top: -50px;
@@ -218,7 +219,7 @@ body {
 }
 
 
-.expertise-text h3{
+.expertise-text h4{
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
 }
@@ -227,11 +228,36 @@ body {
     border-color: #505050;
     width: 50%;
 }
+
+.expertise-image {
+    overflow: hidden;
+}
+
+.expertise-image a {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.expertise-image:hover a {
+    font-family: "Roboto", sans-serif;
+    color: #E74C3C;
+    text-decoration: none;
+}
+
+.expertise-image:hover img {
+    transform: scale(1.05);
+}
+
 /* -------------------------------------------------------------------------------------------------------Headers */
 h2 {
     text-transform: uppercase;
     margin-top: 20px;
     color: #505050
+}
+
+.modal-title {
+    text-transform: uppercase;
 }
 
 /* -------------------------------------------------------------------------------------------------------Horizontal Rules */
