@@ -36,7 +36,8 @@
         <span class="navbar-toggler-icon"></span>
         </button>
 
-		<div class="collapse navbar-collapse main-menu" data-target=".navbar-collapse" data-toggle="collapse" id="navbarSupportedContent">
+		<div class="collapse navbar-collapse main-menu" data-target=".navbar-collapse" data-toggle="collapse"
+			id="navbarSupportedContent">
 			<ul class="nav navbar-nav ml-auto">
 				<li class="nav-item ml-auto">
 					<a class="nav-link" href="#home"><span class="menu-item">Home</span></a>
@@ -92,7 +93,7 @@
 
 
 	<!-- Expertise -->
-	<div id="expertise" class="container-fluid">
+	<div id="expertise" class="container-fluid container-expertise">
 		<div class="row">
 			<div class="col">
 				<h2>Expertise</h2>
@@ -203,203 +204,292 @@
 				<hr>
 			</div>
 		</div>
-        <div class="row">
-            <!-- Airlines -->
-            <div class="col-12 col-md-4 customer-container">
-                <div class="customer-image">
-                    <img src="assets/images/BI.jpg" class="img-fluid" alt="Airlines">
-                </div>
-            </div>
+		<div class="row">
+			<!-- Airlines -->
+			<div class="col-12 col-md-4 customer-container">
+				<div class="accordion" id="accordionAirlines">
+                    <div class="card">
+					    <div class="card-header" id="headingOne">
+                            <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <div class="customer-image">
+						            <img src="assets/images/airline.jpg" class="img-fluid" alt="Airlines">
+                                </div>
+					            <div class="customer-text">
+						            <h4>Airlines</h4>
+					            </div>
+                            </button>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionAirlines">
+                                <div class="card-body">
+                                    <blockquote class="blockquote text-center">
+                                        <p class="mb-0">“AeronautIQa’s Flight Planning solution beats the competition in every aspect.”</p>
+                                        <footer class="blockquote-footer">Barney Stinson, <cite title="Source Title">CFOO in FlyHigh Airlines</cite></footer>
+                                    </blockquote>
+                                    <br>
+                                    <blockquote class="blockquote text-center">
+                                        <p class="mb-0">“Operations resilience solutions proved their value and capabilities during the closure of Pakistani airspace.”</p>
+                                        <footer class="blockquote-footer">Clark Kent, <cite title="Source Title">CEO Blue Sky Airways</cite></footer>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		
+            <!-- Airports -->
+			<div class="col-12 col-md-4 customer-container">
+				<div class="accordion" id="accordionAirports">
+                    <div class="card">
+					    <div class="card-header" id="headingTwo">
+                            <button class="btn" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                <div class="customer-image">
+						            <img src="assets/images/airport.jpg" class="img-fluid" alt="Airports">
+                                </div>
+					            <div class="customer-text">
+						            <h4>Airports</h4>
+					            </div>
+                            </button>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionAirports">
+                                <div class="card-body">
+                                    <blockquote class="blockquote text-center">
+                                        <p class="mb-0">“Airport operations planning has never been easier.”</p>
+                                        <footer class="blockquote-footer">Peter Parker, <cite title="Source Title">VP Operations at New York Airport</cite></footer>
+                                    </blockquote>
+                                    <br>
+                                    <blockquote class="blockquote text-center">
+                                        <p class="mb-0">“Implementation of A-CDM at our airport was seamless thanks to AeronatIQa.”</p>
+                                        <footer class="blockquote-footer">John McClane, <cite title="Source Title">VP Strategy at Prague Airport</cite></footer>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+
+            <!-- Air Navigation Services Providers -->
+			<div class="col-12 col-md-4 customer-container">
+				<div class="accordion" id="accordionANSPs">
+                    <div class="card">
+					    <div class="card-header" id="headingThree">
+                            <button class="btn" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                <div class="customer-image">
+						            <img src="assets/images/atc.jpg" class="img-fluid" alt="ANSPs">
+                                </div>
+					            <div class="customer-text">
+						            <h4>Air Navigation Services Providers</h4>
+					            </div>
+                            </button>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionANSPs">
+                                <div class="card-body">
+                                    <blockquote class="blockquote text-center">
+                                        <p class="mb-0">“An excellent job, which I believe couldn't have been performed better.”</p>
+                                        <footer class="blockquote-footer">Martin Riggs, <cite title="Source Title">President ATCO</cite></footer>
+                                    </blockquote>
+                                    <br>
+                                    <blockquote class="blockquote text-center">
+                                        <p class="mb-0">“Managing and monitoring of our KPIs is now fully automated. We successfully managed to move from Excel to self-service Business Intelligence.”</p>
+                                        <footer class="blockquote-footer">Roger Murtaugh, <cite title="Source Title">CEO ANSP</cite></footer>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+        
+        
+        
         </div>
 	</div>
 
-	<!-- Contact -->
-	<div id="contact" class="container-fluid empty-div">
-		<h2>Contact</h2>
-	</div>
+		<!-- Contact -->
+		<div id="contact" class="container-fluid empty-div">
+			<h2>Contact</h2>
+		</div>
 
 
 
-	<div class="container-fluid empty-div">
-		<h2>Empty</h2>
-	</div>
-	<div class="container-fluid empty-div">
-		<h2>Empty</h2>
-	</div>
+		<div class="container-fluid empty-div">
+			<h2>Empty</h2>
+		</div>
+		<div class="container-fluid empty-div">
+			<h2>Empty</h2>
+		</div>
 
-	<!-- --------------------------------------------------------Modals -->
-	<!-- Business Intelligence-->
-	<div class="modal fade" id="expertise-bi" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title">Business Intelligence</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<!-- --------------------------------------------------------Modals -->
+		<!-- Business Intelligence-->
+		<div class="modal fade" id="expertise-bi" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Business Intelligence</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-				</div>
-				<div class="modal-body">
-					<img src="assets/images/BI.jpg" class="img-fluid" alt="BI image">
-					<hr>
-					<ul>
-						<li>Item 1</li>
-						<li>Item 2</li>
-						<li>Item 3</li>
-						<li>Item 4</li>
-						<li>Item 5</li>
-					</ul>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+					</div>
+					<div class="modal-body">
+						<img src="assets/images/BI.jpg" class="img-fluid" alt="BI image">
+						<hr>
+						<ul>
+							<li>Item 1</li>
+							<li>Item 2</li>
+							<li>Item 3</li>
+							<li>Item 4</li>
+							<li>Item 5</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<!-- Collaborative Decision Making-->
-	<div class="modal fade" id="expertise-cdm" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title">Collaborative Decision Making</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<!-- Collaborative Decision Making-->
+		<div class="modal fade" id="expertise-cdm" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Collaborative Decision Making</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-				</div>
-				<div class="modal-body">
-					<img src="assets/images/cdm.jpg" class="img-fluid" alt="BI image">
-					<hr>
-					<ul>
-						<li>Item 1</li>
-						<li>Item 2</li>
-						<li>Item 3</li>
-						<li>Item 4</li>
-						<li>Item 5</li>
-					</ul>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+					</div>
+					<div class="modal-body">
+						<img src="assets/images/cdm.jpg" class="img-fluid" alt="BI image">
+						<hr>
+						<ul>
+							<li>Item 1</li>
+							<li>Item 2</li>
+							<li>Item 3</li>
+							<li>Item 4</li>
+							<li>Item 5</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<!-- Safety-->
-	<div class="modal fade" id="expertise-safety" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title">Safety</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<!-- Safety-->
+		<div class="modal fade" id="expertise-safety" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Safety</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-				</div>
-				<div class="modal-body">
-					<img src="assets/images/safety.jpg" class="img-fluid" alt="BI image">
-					<hr>
-					<ul>
-						<li>Item 1</li>
-						<li>Item 2</li>
-						<li>Item 3</li>
-						<li>Item 4</li>
-						<li>Item 5</li>
-					</ul>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+					</div>
+					<div class="modal-body">
+						<img src="assets/images/safety.jpg" class="img-fluid" alt="BI image">
+						<hr>
+						<ul>
+							<li>Item 1</li>
+							<li>Item 2</li>
+							<li>Item 3</li>
+							<li>Item 4</li>
+							<li>Item 5</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<!-- Operations Planning-->
-	<div class="modal fade" id="expertise-planning" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title">Operations Planning</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<!-- Operations Planning-->
+		<div class="modal fade" id="expertise-planning" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Operations Planning</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-				</div>
-				<div class="modal-body">
-					<img src="assets/images/planning.jpg" class="img-fluid" alt="BI image">
-					<hr>
-					<ul>
-						<li>Item 1</li>
-						<li>Item 2</li>
-						<li>Item 3</li>
-						<li>Item 4</li>
-						<li>Item 5</li>
-					</ul>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+					</div>
+					<div class="modal-body">
+						<img src="assets/images/planning.jpg" class="img-fluid" alt="BI image">
+						<hr>
+						<ul>
+							<li>Item 1</li>
+							<li>Item 2</li>
+							<li>Item 3</li>
+							<li>Item 4</li>
+							<li>Item 5</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<!-- Capacity-->
-	<div class="modal fade" id="expertise-capacity" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title">Capacity</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<!-- Capacity-->
+		<div class="modal fade" id="expertise-capacity" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Capacity</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-				</div>
-				<div class="modal-body">
-					<img src="assets/images/capacity.jpg" class="img-fluid" alt="BI image">
-					<hr>
-					<ul>
-						<li>Item 1</li>
-						<li>Item 2</li>
-						<li>Item 3</li>
-						<li>Item 4</li>
-						<li>Item 5</li>
-					</ul>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+					</div>
+					<div class="modal-body">
+						<img src="assets/images/capacity.jpg" class="img-fluid" alt="BI image">
+						<hr>
+						<ul>
+							<li>Item 1</li>
+							<li>Item 2</li>
+							<li>Item 3</li>
+							<li>Item 4</li>
+							<li>Item 5</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<!-- Training -->
-	<div class="modal fade" id="expertise-training" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title">Training</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<!-- Training -->
+		<div class="modal fade" id="expertise-training" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Training</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-				</div>
-				<div class="modal-body">
-					<img src="assets/images/training.jpg" class="img-fluid" alt="BI image">
-					<hr>
-					<ul>
-						<li>Item 1</li>
-						<li>Item 2</li>
-						<li>Item 3</li>
-						<li>Item 4</li>
-						<li>Item 5</li>
-					</ul>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+					</div>
+					<div class="modal-body">
+						<img src="assets/images/training.jpg" class="img-fluid" alt="BI image">
+						<hr>
+						<ul>
+							<li>Item 1</li>
+							<li>Item 2</li>
+							<li>Item 3</li>
+							<li>Item 4</li>
+							<li>Item 5</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-	<script src="assets/js/script.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<script src="assets/js/script.js"></script>
 </body>
 
 </html>

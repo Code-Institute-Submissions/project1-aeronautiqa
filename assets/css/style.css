@@ -251,6 +251,13 @@ body {
 
 /* -------------------------------------------------------------------------------------------------------Expertise */
 
+.container-expertise {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 .expertise-text {
     font-family: "Roboto", sans-serif;
     background-color: #fafafa;
@@ -269,12 +276,12 @@ body {
 }
 
 
-.expertise-text h4{
+.expertise-text h4 {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
 }
 
-.expertise-text hr{
+.expertise-text hr {
     border-color: #505050;
     width: 50%;
 }
@@ -307,15 +314,95 @@ body {
 
 .container-customers {
     background-color: #eaeaea;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .customer-image {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: auto;
     border: 1px solid rgba(0,0,0,0);
     border-radius: 50%;
     overflow: hidden;
     margin: auto;  
+}
+
+
+.customer-text h4 {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#collapseOne,
+#collapseTwo,
+#collapseThree {
+    background-color: rgba(0,0,0,0);
+}
+
+
+.card {
+    background-color: rgba(0,0,0,0);
+    border: 0;
+}
+
+.card-body {
+    padding: 1%;
+}
+
+.card-body p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.card-body footer {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+#headingOne,
+#headingTwo,
+#headingThree {
+    background-color: rgba(0,0,0,0);
+    border: 0;
+}
+
+#headingOne img,
+#headingTwo img,
+#headingThree img {
+    transition: transform 1s ease;
+}
+
+#headingOne:hover img,
+#headingTwo:hover img,
+#headingThree:hover img {
+    transform: scale(1.05);
+}
+
+#headingOne:hover h4,
+#headingTwo:hover h4,
+#headingThree:hover h4 {
+    font-family: "Roboto", sans-serif;
+    color: #E74C3C;
+    text-decoration: none;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+  outline: 0 !important;
+  outline-offset: 0  !important;
+  background-image: none  !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none  !important;
 }
 
 /* -------------------------------------------------------------------------------------------------------Headers */
