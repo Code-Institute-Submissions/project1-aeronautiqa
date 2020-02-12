@@ -9,7 +9,7 @@ A live demo of the website has been developed  [here](https://milan-stefanik.git
 
 ![Responsive Web Demo](https://github.com/milan-stefanik/project1-aeronautiqa/raw/master/assets/images/demo.gif "Responsive Web Demo")
 
-Responsive Web Demo GIF image was recorded using [Am I Responsive?] (http://ami.responsivedesign.is) website. 
+Responsive Web Demo GIF image was recorded using [Am I Responsive?](http://ami.responsivedesign.is) website. 
 
 
 ## UX
