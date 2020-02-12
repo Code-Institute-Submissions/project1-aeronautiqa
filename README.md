@@ -42,7 +42,7 @@ Website is logically structured in 4 sections:
 * Contact - simple contact form
 
 ### Skeleton
-[Website wireframe](https://github.com/milan-stefanik/project1-aeronautiqa/raw/master/assets/wireframes/wireframe.pdf)
+[Website wireframe](https://github.com/milan-stefanik/project1-aeronautiqa/raw/master/assets/wireframes/wireframe.pdf){:target="_blank" rel="noopener"}
 
 ### Surface
 Greyscale color scheme with orange details.
