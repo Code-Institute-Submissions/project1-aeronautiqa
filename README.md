@@ -22,11 +22,11 @@ A potential customer is mainly interested in AeronatIQa's area of expertise and 
 
 Presentation of Expertise:
 
-
+![Expertise](https://github.com/milan-stefanik/project1-aeronautiqa/raw/master/assets/images/demo.gif "Expertise Demo")
 
 References from existing customers:
 
-
+![Customer References](https://github.com/milan-stefanik/project1-aeronautiqa/raw/master/assets/images/demo.gif "Customer References Demo")
 
 ### Strategy
 Although the website will be mainly viewed on a computer screens, website has been designed while keeping mobile devices in mind. Main goal is to provide potential customers with necessary information through simple and user-friendly interface.
