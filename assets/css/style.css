@@ -51,6 +51,12 @@ body {
     color: #fafafa;
 }
 
+.navbar-brand:hover {
+    font-size: 30px;
+    font-weight: 200;
+    color: #fafafa;
+}
+
 .navbar-brand-image {
     width: 30px;
     height: 30px;
@@ -202,14 +208,7 @@ body {
     }
 }
 
-@media (max-width: 576px) {
-.jumbotron h1 {
-    font-size: 2.5rem;
-}
-.jumbotron .lead{
-    font-size: 20px;
-}
-}
+
 
 .jumbotron .lead-text {
     font-family: "Rubik", sans-serif;
@@ -230,6 +229,24 @@ body {
 
 .more-info i {
     font-size: 30px;
+}
+
+@media (max-width: 576px) {
+.jumbotron h1 {
+    font-size: 2.5rem;
+}
+.jumbotron .lead{
+    font-size: 20px;
+}
+.jumbotron .lead-text {
+    font-size: 16px;
+}
+.more-info {
+    font-size: 12px;
+}
+.more-info i {
+    font-size: 25px;
+}
 }
 
 /* -------------------------------------------------------------------------------------------------------Expertise */
@@ -284,6 +301,21 @@ body {
 
 .expertise-image:hover img {
     transform: scale(1.05);
+}
+
+/* -------------------------------------------------------------------------------------------------------Customers */
+
+.container-customers {
+    background-color: #eaeaea;
+}
+
+.customer-image {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;  
 }
 
 /* -------------------------------------------------------------------------------------------------------Headers */
