@@ -42,7 +42,7 @@ Website is logically structured in 4 sections:
 * Contact - simple contact form
 
 ### Skeleton
-[Website wireframe](https://milan-stefanik.github.io/project1-aeronautiqa/assets/wireframes/wireframe.pdf)
+[Website wireframe](https://github.com/milan-stefanik/project1-aeronautiqa/assets/wireframes/wireframe.pdf)
 
 ### Surface
 Greyscale color scheme with orange details.
@@ -79,13 +79,13 @@ Greyscale color scheme with orange details.
 * Contact form validates information before submission. 
 
 ### Browsers and devices
-* Responsivness has been tested using Inspect feature of Chrome and also on [Am I Responsive?] (http://ami.responsivedesign.is) website.
+* Responsivness has been tested using Inspect feature of Chrome and also on [Am I Responsive?](http://ami.responsivedesign.is) website.
 * Website has been tested on iPhone XS plus. Other mobile devices were emulated via Chrome Inspect feature.
 * Website has been tested on multiple browsers (Chrome, Safari, Internet Explored, Edge and FireFox). 
 
 
 ## Deployment
-The website is hosted on GitHub pages and can be accessed via this [link] (https://milan-stefanik.github.io/project1-aeronautiqa/). Any changes to the master branch will be automatically reflected.
+The website is hosted on GitHub pages and can be accessed via this [link](https://milan-stefanik.github.io/project1-aeronautiqa/). Any changes to the master branch will be automatically reflected.
 
 
 
@@ -96,11 +96,11 @@ All the website content was written by me.
 
 ### Media
 * Home page photo was downloaded from [Pexels](https://www.pexels.com/), a stock image library.
-* All other photos were downloaded from [Shutterstock] (https://www.shutterstock.com/), a stock image library.
+* All other photos were downloaded from [Shutterstock](https://www.shutterstock.com/), a stock image library.
 Images were resized to fit the website design and to reduce website loading time.
 
 ### Acknowledgements
-The navbar scroll effect JS code was copied from [Stack Overflow] (https://stackoverflow.com/questions/55360887/navbar-not-functioning-like-its-supposed-to).
+The navbar scroll effect JS code was copied from [Stack Overflow](https://stackoverflow.com/questions/55360887/navbar-not-functioning-like-its-supposed-to).
 
 Bootstrap, Stack Overflow, W3C webpages were used as reference throught the entire development process.
 
