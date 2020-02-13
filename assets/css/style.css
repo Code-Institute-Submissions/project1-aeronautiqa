@@ -330,7 +330,9 @@ body {
 }
 
 
-.card-header a h4{
+#customerOne,
+#customerTwo,
+#customerThree {
     font-family: "Roboto", sans-serif;
     color: black;
     text-transform: uppercase;
@@ -385,9 +387,9 @@ body {
     transform: scale(1.05);
 }
 
-#headingOne:hover a,
-#headingTwo:hover a,
-#headingThree:hover a {
+#headingOne:hover h4,
+#headingTwo:hover h4,
+#headingThree:hover h4 {
     font-family: "Roboto", sans-serif;
     color: #E74C3C;
     text-decoration: none;
