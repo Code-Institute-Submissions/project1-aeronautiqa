@@ -387,9 +387,9 @@ body {
     transform: scale(1.05);
 }
 
-#headingOne:hover #headingOne,
-#headingTwo:hover #headingTwo,
-#headingThree:hover #headingThree {
+#headingOne:hover #customerOne,
+#headingTwo:hover #customerTwo,
+#headingThree:hover #customerThree {
     font-family: "Roboto", sans-serif;
     color: #E74C3C;
     text-decoration: none;
