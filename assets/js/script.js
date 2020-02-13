@@ -1,13 +1,7 @@
-//code copied from "https://stackoverflow.com/questions/55360887/navbar-not-functioning-like-its-supposed-to"
+//code copied from "https://stackoverflow.com/questions/55360887/navbar-not-functioning-like-its-supposed-to" and adjusted
 $(function () {
     $(document).scroll(function () {
         var $nav = $(".navbar");
-        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        $nav.toggleClass('scrolled', $(this).scrollTop() > 100);
     });
 });
-
-//code copied from "https://stackoverflow.com/questions/3664381/force-page-scroll-position-to-top-at-page-refresh-in-html"
-$(document).ready(function(){
-    $(this).scrollTop(0);
-});
-
