@@ -388,9 +388,9 @@ body {
 }
 
 
-#headingOne a:hover #customerOne,
-#headingTwo a:hover #customerTwo,
-#headingThree a:hover #customerThree {
+#headingOne:hover a,
+#headingTwo:hover a,
+#headingThree:hover a {
     font-family: "Roboto", sans-serif;
     color: #E74C3C;
     text-decoration: none;
