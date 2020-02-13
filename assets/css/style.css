@@ -375,11 +375,11 @@ body {
     text-decoration: none;
 }
 
-.customer-link:hover img {
+.card-header a:hover img {
     transform: scale(1.05);
 }
 
-.customer-link:hover h4 {
+.card-header a:hover h4 {
     font-family: "Roboto", sans-serif;
     color: #E74C3C;
     text-decoration: none;
