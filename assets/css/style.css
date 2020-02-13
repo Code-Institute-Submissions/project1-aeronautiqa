@@ -394,9 +394,9 @@ hover:a {
 }
 
 
-#headingOne:hover h4,
-#headingTwo:hover h4,
-#headingThree:hover h4 {
+#headingOne:hover a,
+#headingTwo:hover a,
+#headingThree:hover a {
     font-family: "Roboto", sans-serif;
     color: #E74C3C;
     text-decoration: none;
