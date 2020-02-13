@@ -387,9 +387,9 @@ body {
     transform: scale(1.05);
 }
 
-#headingOne:hover h4,
-#headingTwo:hover h4,
-#headingThree:hover h4 {
+#headingOne:hover #headingOne,
+#headingTwo:hover #headingTwo,
+#headingThree:hover #headingThree {
     font-family: "Roboto", sans-serif;
     color: #E74C3C;
     text-decoration: none;
