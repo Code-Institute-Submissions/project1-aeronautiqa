@@ -379,7 +379,7 @@ body {
     transform: scale(1.05);
 }
 
-.customer-link:hover {
+.card-header a:hover {
     font-family: "Roboto", sans-serif;
     color: #E74C3C;
     text-decoration: none;
