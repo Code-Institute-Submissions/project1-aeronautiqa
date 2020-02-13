@@ -2,6 +2,6 @@
 $(function () {
     $(window).pageYOffset(function () {
         var $nav = $(".navbar");
-        $nav.toggleClass('scrolled', window.pageYOffset() > 100);
+        $nav.toggleClass('scrolled', window.pageYOffset > 100);
     });
 });
