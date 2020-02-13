@@ -379,12 +379,19 @@ body {
     transition: transform 1s ease;
 }
 
+#headingOne a,
+#headingTwo a,
+#headingThree a {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
 #headingOne a:hover img,
 #headingTwo a:hover img,
 #headingThree a:hover img {
     transform: scale(1.05);
 }
-
 
 #headingOne a:hover,
 #headingTwo a:hover,
