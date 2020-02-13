@@ -331,18 +331,7 @@ body {
 }
 
 
-.customer-text h4 {
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
-    margin: auto;
-    width: 100%;
-    text-align: center;
-    padding: 20px 0;
-}
-
-#collapseOne,
-#collapseTwo,
-#collapseThree {
+.collapse-format {
     background-color: rgba(0,0,0,0);
 }
 
@@ -366,36 +355,31 @@ body {
     font-size: 14px;
 }
 
-#headingOne,
-#headingTwo,
-#headingThree {
+.card-header {
     background-color: rgba(0,0,0,0);
     border: 0;
 }
 
-#headingOne img,
-#headingTwo img,
-#headingThree img {
+.customer-link img {
     transition: transform 1s ease;
 }
 
-#headingOne a,
-#headingTwo a,
-#headingThree a {
+.customer-link h4 {
     font-family: "Roboto", sans-serif;
     color: black;
+    text-transform: uppercase;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
     text-decoration: none;
 }
 
-#headingOne a:hover img,
-#headingTwo a:hover img,
-#headingThree a:hover img {
+.customer-link:hover img {
     transform: scale(1.05);
 }
 
-#headingOne a:hover,
-#headingTwo a:hover,
-#headingThree a:hover {
+.customer-link:hover h4 {
     font-family: "Roboto", sans-serif;
     color: #E74C3C;
     text-decoration: none;
