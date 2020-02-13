@@ -330,7 +330,7 @@ body {
 }
 
 
-.customer-text a {
+.card-header a h4{
     font-family: "Roboto", sans-serif;
     color: black;
     text-transform: uppercase;
