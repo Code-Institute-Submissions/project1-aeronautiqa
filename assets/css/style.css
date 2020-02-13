@@ -339,9 +339,7 @@ hover:a {
 }
 
 
-#customerOne,
-#customerTwo,
-#customerThree {
+.customer-text h4 {
     font-family: "Roboto", sans-serif;
     color: black;
     text-transform: uppercase;
@@ -397,9 +395,9 @@ hover:a {
 }
 
 
-#headingOne:hover #customerOne,
-#headingTwo:hover #customerTwo,
-#headingThree:hover #customerThree {
+#headingOne:hover h4,
+#headingTwo:hover h4,
+#headingThree:hover h4 {
     font-family: "Roboto", sans-serif;
     color: #E74C3C;
     text-decoration: none;
