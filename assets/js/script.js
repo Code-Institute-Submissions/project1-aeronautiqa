@@ -13,7 +13,3 @@ $(function() {
     });
 });
 
-//code copied from "https://stackoverflow.com/questions/3664381/force-page-scroll-position-to-top-at-page-refresh-in-html"
-$(window).on('scroll', function() {
-    console.log( $(this).scrollTop() );
-});
