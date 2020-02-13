@@ -1,7 +1,13 @@
 //code copied from "https://stackoverflow.com/questions/55360887/navbar-not-functioning-like-its-supposed-to" and adjusted
-$(function () {
-    $(window).pageYOffset(function () {
-        var $nav = $(".navbar");
-        $nav.toggleClass('scrolled', window.pageYOffset > 100);
+$(function() {
+    var nav = $(".navbar");
+    $(window).scroll(function() {    
+        var scroll = $(window).pageYOffset;
+    
+        if (scroll >= 100) {
+            nav.addClass("scrolled");
+        } else {
+            nav.removeClass("scrolled");
+        }
     });
 });
