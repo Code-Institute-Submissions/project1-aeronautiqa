@@ -1,13 +1,10 @@
-//code copied from "https://stackoverflow.com/questions/55360887/navbar-not-functioning-like-its-supposed-to" and adjusted
-window.addEventListener('scroll', $(function() {
-    var nav = $(".navbar");
-    $(window).scroll(function() {    
-        var scroll = window.pageYOffset;
-    
-        if (scroll >= 200) {
+//code copied from "https://www.sitepoint.com/community/t/pageyoffset-not-working-correctly/300109" and adjusted
+var nav = $(".navbar")
+
+window.addEventListener('scroll', function () {
+  if (window.pageYOffset >= 200) {
             nav.addClass("scrolled");
         } else {
             nav.removeClass("scrolled");
         }
-    });
-});)
+})
