@@ -1,5 +1,5 @@
 //code copied from "https://stackoverflow.com/questions/55360887/navbar-not-functioning-like-its-supposed-to" and adjusted
-$(function() {
+window.addEventListener('scroll', $(function() {
     var nav = $(".navbar");
     $(window).scroll(function() {    
         var scroll = window.pageYOffset;
@@ -10,4 +10,4 @@ $(function() {
             nav.removeClass("scrolled");
         }
     });
-});
+});)
