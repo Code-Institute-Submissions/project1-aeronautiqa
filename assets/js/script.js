@@ -2,9 +2,9 @@
 $(function() {
     var nav = $(".navbar");
     $(window).scroll(function() {    
-        var scroll = $(window).scrollTop();
+        var scroll = $(window).pageYOffset;
     
-        if (scroll >= 100) {
+        if (scroll >= 200) {
             nav.addClass("scrolled");
         } else {
             nav.removeClass("scrolled");
