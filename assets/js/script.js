@@ -1,10 +1,19 @@
-//code copied from "https://www.sitepoint.com/community/t/pageyoffset-not-working-correctly/300109" and adjusted
-var nav = $(".navbar")
+//code copied from "https://stackoverflow.com/questions/55360887/navbar-not-functioning-like-its-supposed-to" and adjusted
 
-window.addEventListener('scroll', function () {
-  if (window.pageYOffset >= 200) {
+$(function() {
+    var nav = $(".navbar");
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+    
+        if (scroll >= 200) {
             nav.addClass("scrolled");
         } else {
             nav.removeClass("scrolled");
         }
-})
+    });
+});
+
+//code copied from "https://stackoverflow.com/questions/3664381/force-page-scroll-position-to-top-at-page-refresh-in-html"
+$(window).on('scroll', function() {
+    console.log( $(this).scrollTop() );
+});
