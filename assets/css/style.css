@@ -330,8 +330,9 @@ body {
 }
 
 
-.customer-text h4 {
+.customer-text a {
     font-family: "Roboto", sans-serif;
+    color: black;
     text-transform: uppercase;
     margin: auto;
     width: 100%;
@@ -384,26 +385,14 @@ body {
     transform: scale(1.05);
 }
 
-#headingOne:hover h4,
-#headingTwo:hover h4,
-#headingThree:hover h4 {
+#headingOne:hover a,
+#headingTwo:hover a,
+#headingThree:hover a {
     font-family: "Roboto", sans-serif;
     color: #E74C3C;
     text-decoration: none;
 }
 
-.btn.active.focus,
-.btn.active:focus,
-.btn.focus,
-.btn.focus:active,
-.btn:active:focus,
-.btn:focus {
-  outline: 0 !important;
-  outline-offset: 0  !important;
-  background-image: none  !important;
-  -webkit-box-shadow: none !important;
-  box-shadow: none  !important;
-}
 
 /* -------------------------------------------------------------------------------------------------------Headers */
 h2 {
