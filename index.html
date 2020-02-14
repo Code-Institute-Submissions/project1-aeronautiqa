@@ -73,7 +73,6 @@
     <!-- parallax.js library downloaded from "https://pixelcog.github.io/parallax.js/" data attributes below set as per this website -->
 	<div id="home" class="container-fluid home-image-container parallax-window" data-parallax="scroll"
 		data-image-src="assets/images/hero-image.jpg" data-speed=0.6>
-		<div class="opaque-overlay">
 			<div class="row home-image-text">
 				<section class="callout jumbotron">
 					<h1>Aeronaut<span class="jumbotron-IQ">IQ</span>a</h1>
@@ -86,7 +85,6 @@
 						<br>
 						<i class="fas fa-chevron-down"></i></p>
 				</section>
-			</div>
 		</div>
 	</div>
 
@@ -345,12 +343,12 @@
 		</div>
 		<div class="row">
 			<div class="col form-container">
-				<form>
+				<form id="contact-form">
                     <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
                     <input type="text" name="organization" id="organization" class="form-control" placeholder="Organization" required />
                     <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email Address" required />
                     <textarea rows="5" name="requestdetails" id="requestdetails" class="form-control" placeholder="Request Details" required></textarea>
-                    <button type="submit button" class="btn btn-secondary button" data-target="#submit" data-toggle="modal">Send Project Request</button>
+                    <button type="submit" class="btn btn-secondary button">Send Project Request</button>
 				</form>
 			</div>
 		</div>
@@ -566,7 +564,7 @@
 	</div>
 
     <!-- Submit -->
-	<div class="modal fade" id="submit" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered" role="document">
 			<div class="modal-content">
 				<div class="modal-header">

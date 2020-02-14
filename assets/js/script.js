@@ -13,3 +13,8 @@ $(function() {
     });
 });
 
+$('#contact-form').on('submit', function(event) {
+    $('#contact-modal').modal('show');
+    event.preventDefault();
+})
+

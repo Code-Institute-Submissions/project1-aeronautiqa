@@ -135,20 +135,13 @@ body {
 .home-image-container {
     padding: 0;
     height: 100vh;
-}
-
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
     background-color: rgba(0,0,0,0.5);
     display: table;
-    padding: 50px 0;
 }
 
+
 .home-image-text {
+    padding-top: 50px;
     text-align: center;
     vertical-align: middle;
     display: table-cell;
@@ -434,6 +427,13 @@ body {
 .form-container .button:hover {
     background-color: #E74C3C;
     color: white;
+}
+
+@media (max-width: 576px) {
+    .form-container {
+    margin: 10% 5%;
+    display: table;
+}
 }
 
 /* -------------------------------------------------------------------------------------------------------Footer */
