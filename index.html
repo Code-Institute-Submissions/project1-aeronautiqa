@@ -70,7 +70,9 @@
 
 
 	<!-- Home Page-->
-	<div id="home" class="container-fluid home-image-container">
+    <!-- parallax.js library downloaded from "https://pixelcog.github.io/parallax.js/" data attributes below set as per this website -->
+	<div id="home" class="container-fluid home-image-container parallax-window" data-parallax="scroll"
+		data-image-src="assets/images/hero-image.jpg" data-speed=0.6>
 		<div class="opaque-overlay">
 			<div class="row home-image-text">
 				<section class="callout jumbotron">
@@ -107,9 +109,11 @@
 						<img src="assets/images/BI.jpg" class="img-fluid" alt="BI image">
 
 						<div class="expertise-text">
-							<h4>Business Intelligence</h4>
-							<hr>
-							<p>Unveiling utapped potential.</p>
+							<div class="expertise">
+								<h4>Business Intelligence</h4>
+								<hr>
+								<p>Unveiling utapped potential.</p>
+							</div>
 						</div>
 					</a>
 				</div>
@@ -122,9 +126,11 @@
 						<img src="assets/images/cdm.jpg" class="img-fluid" alt="CDM image">
 
 						<div class="expertise-text">
-							<h4>CDM</h4>
-							<hr>
-							<p>Collaborative Decision Making.</p>
+							<div class="expertise">
+								<h4>CDM</h4>
+								<hr>
+								<p>Collaborative Decision Making.</p>
+							</div>
 						</div>
 					</a>
 				</div>
@@ -137,9 +143,11 @@
 						<img src="assets/images/safety.jpg" class="img-fluid" alt="Safety image">
 
 						<div class="expertise-text">
-							<h4>Safety</h4>
-							<hr>
-							<p>Managing safety.</p>
+							<div class="expertise">
+								<h4>Safety</h4>
+								<hr>
+								<p>Managing safety.</p>
+							</div>
 						</div>
 					</a>
 				</div>
@@ -152,9 +160,11 @@
 						<img src="assets/images/planning.jpg" class="img-fluid" alt="Planning image">
 
 						<div class="expertise-text">
-							<h4>Planning</h4>
-							<hr>
-							<p>Seamless operations planning.</p>
+							<div class="expertise">
+								<h4>Planning</h4>
+								<hr>
+								<p>Seamless operations planning.</p>
+							</div>
 						</div>
 					</a>
 				</div>
@@ -167,9 +177,11 @@
 						<img src="assets/images/capacity.jpg" class="img-fluid" alt="Capacity image">
 
 						<div class="expertise-text">
-							<h4>Capacity</h4>
-							<hr>
-							<p>Demand/capacity balancing.</p>
+							<div class="expertise">
+								<h4>Capacity</h4>
+								<hr>
+								<p>Demand/capacity balancing.</p>
+							</div>
 						</div>
 					</a>
 				</div>
@@ -182,9 +194,11 @@
 						<img src="assets/images/training.jpg" class="img-fluid" alt="Training image">
 
 						<div class="expertise-text">
-							<h4>Training</h4>
-							<hr>
-							<p>Developing most valuable assets.</p>
+							<div class="expertise">
+								<h4>Training</h4>
+								<hr>
+								<p>Developing most valuable assets.</p>
+							</div>
 						</div>
 					</a>
 				</div>
@@ -322,7 +336,7 @@
 	<!-- Contact -->
 	<!-- parallax.js library downloaded from "https://pixelcog.github.io/parallax.js/" data attributes below set as per this website -->
 	<div id="contact" class="container-fluid container-contact parallax-window" data-parallax="scroll"
-		data-image-src="assets/images/contact1.jpg" data-speed=0.2>
+		data-image-src="assets/images/contact1.jpg" data-speed=0.6>
 		<div class="row">
 			<div class="col">
 				<h2>Contact us to discuss your next project!</h2>
@@ -330,8 +344,13 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col">
+			<div class="col form-container">
 				<form>
+                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                    <input type="text" name="organization" id="organization" class="form-control" placeholder="Organization" required />
+                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email Address" required />
+                    <textarea rows="5" name="requestdetails" id="requestdetails" class="form-control" placeholder="Request Details" required></textarea>
+                    <button type="submit button" class="btn btn-secondary button" data-target="#submit" data-toggle="modal">Send Project Request</button>
 				</form>
 			</div>
 		</div>
@@ -358,28 +377,33 @@
 				</ul>
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 footer-contact-details">
-				<p>Aeoronaut<span class="IQ">IQ</span>a Ltd. <br>
-                Komenskeho 23 <br>
-                010 01 Zilina <br>
-                SLOVAK REPUBLIC</p>
-					<p><i class="fas fa-phone"></i> +421 (0) 41 555 7777 <br>
+				<div class="contact-details">
+					<p>Aeoronaut<span class="IQ">IQ</span>a Ltd. <br>
+                        Komenskeho 23 <br>
+                        010 01 Zilina <br>
+                        SLOVAK REPUBLIC<br>
+						<br>
+						<i class="fas fa-phone"></i> +421 (0) 41 555 7777 <br>
 						<i class="fas fa-envelope"></i> info@aeronautiqa.com</p>
+				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 footer-social-media">
-				<ul class="footer-links-list">
-					<li>
-						<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-					</li>
-					<li>
-						<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-					</li>
-					<li>
-						<a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-					</li>
-					<li>
-						<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-					</li>
-				</ul>
+				<div class="social-media">
+					<ul class="footer-links-list">
+						<li>
+							<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+						</li>
+						<li>
+							<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -533,6 +557,27 @@
 					<p><i>CFO asked CEO: “What happens if we invest in developing people and they leave us?” CEO: “What happens if we don't & they stay?”</i>
 					</p>
 					<p>Try our award winning Computer Based Training solution.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <!-- Submit -->
+	<div class="modal fade" id="submit" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Thank you for contacting us.</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					<p>This website has been developed for educational purposes only.</p>
+					<p>Data sumitted via Contact form are not being saved or processed in any way.</p>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>

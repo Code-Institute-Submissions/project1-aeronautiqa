@@ -55,6 +55,7 @@ Greyscale color scheme with orange details.
 
 ## Features
 * Bootstrap Scrollspy - updating navigation bar based on scroll position to indicated which link is currently active
+* Parallax effect of home image and contact image
 * Two language versions
 * Responsive language bar - changes position in navigation bar depending on the screen width
 * Navigation bar - change from transparent to semi transparent dark grey after scroll
@@ -96,11 +97,14 @@ All the website content was written by me.
 
 ### Media
 * Home page photo was downloaded from [Pexels](https://www.pexels.com/), a stock image library.
+* Contact image was downloaded from [Unsplash](https://unsplash.com/), a stock image library.
 * All other photos were downloaded from [Shutterstock](https://www.shutterstock.com/), a stock image library.
 Images were resized to fit the website design and to reduce website loading time.
 
 ### Acknowledgements
 The navbar scroll effect JS code was copied from [Stack Overflow](https://stackoverflow.com/questions/55360887/navbar-not-functioning-like-its-supposed-to).
+
+Parallax effect with respective JS library of home background image and contact background image was downloaded from [Simple Parallax Scrolling parallax.js](https://pixelcog.github.io/parallax.js/).
 
 Bootstrap, Stack Overflow, W3C webpages were used as reference throught the entire development process.
 

@@ -135,17 +135,6 @@ body {
 .home-image-container {
     padding: 0;
     height: 100vh;
-    background: url("../images/hero-image.jpg") no-repeat center top fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
 }
 
 .opaque-overlay {
@@ -264,18 +253,23 @@ body {
 .expertise-text {
     font-family: "Roboto", sans-serif;
     background-color: #fafafa;
-    max-width: 100%;
-    min-height: 150px;
+    width: 80%;
+    min-height: 160px;
     z-index: 1;
     position: relative;
-    top: -50px;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
-    padding: 4% 2%;
+    top: -80px;
     border-color: #505050;
     border-width: 1px;
     box-shadow: 4px 4px rgba(100,100,100,0.5);
+    margin: auto;
+    display: table;
+}
+
+.expertise {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5%;
 }
 
 
@@ -404,41 +398,62 @@ body {
 /* -------------------------------------------------------------------------------------------------------Contact */
 
 .container-contact {
+    background-color: rgba(50,50,50,0.75);
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 2%;
     padding-right: 2%;
-    height: 1000px;
 }
 
 .container-contact h2 {
-    color: #E74C3C;
+    color: white;
 }
 
-.container-contact h3 {
-    margin: 25px auto;
-    color: #E74C3C;
-    text-transform: uppercase;
+.form-container {
+    margin: 10% 20%;
+    display: table;
+}
+
+.form-container form {
+    display: table-cell;
     text-align: center;
+    vertical-align: middle;
 }
 
+.form-control {
+    margin-top: 20px;
+}
+
+.form-container .button {
+    margin-top: 40px;
+    background-color: #999999;
+    color: black;
+    border: 0;
+}
+
+.form-container .button:hover {
+    background-color: #E74C3C;
+    color: white;
+}
 
 /* -------------------------------------------------------------------------------------------------------Footer */
 
 .footer {
     background-color: black;
-    padding: 10px 0;
 }
 
 .footer-links {
     padding: 10px 0;
     margin: auto;
-    text-align: center;
+    display: table;
 }
 
 .footer-links ul {
     list-style: none;
     padding: 0;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .footer-links a {
@@ -453,11 +468,21 @@ body {
 }
 
 .footer-contact-details {
-    color: white;
-    font-size: 14px;
-    text-align: center;
     padding: 10px 0;
     margin: auto;
+    color: white;
+    font-size: 14px;
+    display: table;
+}
+
+.contact-details {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contact-details p {
+    margin: 0;
 }
 
 .footer-contact-details .IQ {
@@ -466,14 +491,19 @@ body {
 }
 
 .footer-social-media {
-    padding: 35px 0;
-    text-align: center;
+    padding: 10px 0;
     margin: auto;
+    display: table;
+}
+
+.social-media {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .footer-social-media ul {
     list-style: none;
-    padding: 0;
 }
 
 .footer-social-media li {
