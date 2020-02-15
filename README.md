@@ -18,7 +18,7 @@ Responsive Web Demo GIF image was recorded using [Am I Responsive?](http://ami.r
 
 Due to character of AeronautIQa's business, majority of contracts is won by direct response to public call for tenders. The main goal of the website is to support bidding activity and provide secondary marketing channel.
 
-A potential customer is mainly interested in AeronatIQa's area of expertise and references from the current and past customers.
+A potential customer is mainly interested in AeronatIQa's area of expertise and references from the current and past customers. The website provide all this information presented in a logical manner. The website also allows potential customers to contact AeronautIQa directly.
 
 Presentation of Expertise:
 
@@ -51,6 +51,7 @@ Greyscale color scheme with orange details.
 1. HTML
 2. CSS
 3. Bootstrap (4.4.1)
+4. Minor use of JavaScrip - Parallax library [Simple Parallax Scrolling parallax.js](https://pixelcog.github.io/parallax.js/), from [Stackoverflow](https://stackoverflow.com/questions/55360887/navbar-not-functioning-like-its-supposed-to) from [Code Institute Example Project](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive). 
 
 
 ## Features
@@ -75,19 +76,18 @@ Greyscale color scheme with orange details.
 
 ### User story
 * Potential customer user story has been manually tested.
+* Contact form functionality was tested manually. Contact form validates information before submission. All fields must be filled in to successfully submit the form. Form recognizes wrong format of e-mail address (i.e. missing @ sign) and prevents from submission.
 * All website features have been manually tested.
 * All external links will open in a new tab.
-* Contact form validates information before submission. 
 
 ### Browsers and devices
 * Responsivness has been tested using Inspect feature of Chrome and also on [Am I Responsive?](http://ami.responsivedesign.is) website.
-* Website has been tested on iPhone XS plus. Other mobile devices were emulated via Chrome Inspect feature.
-* Website has been tested on multiple browsers (Chrome, Safari, Internet Explored, Edge and FireFox). 
+* Website has been tested on iPhone XS plus. Other mobile devices screen sizes were emulated via Chrome Inspect feature.
+* Website has been tested on multiple browsers (Chrome, Safari, Internet Explorer, Edge, Opera and FireFox). There were minor layot drawback on Internet Explorer and these were fixed.
 
 
 ## Deployment
 The website is hosted on GitHub pages and can be accessed via this [link](https://milan-stefanik.github.io/project1-aeronautiqa/). Any changes to the master branch will be automatically reflected.
-
 
 
 ## Credits
@@ -97,7 +97,7 @@ All the website content was written by me.
 
 ### Media
 * Home page photo was downloaded from [Pexels](https://www.pexels.com/), a stock image library.
-* Contact image was downloaded from [Unsplash](https://unsplash.com/), a stock image library.
+* Contact page image was downloaded from [Unsplash](https://unsplash.com/), a stock image library.
 * All other photos were downloaded from [Shutterstock](https://www.shutterstock.com/), a stock image library.
 Images were resized to fit the website design and to reduce website loading time.
 
