@@ -135,7 +135,6 @@ body {
 .home-image-container {
     padding: 0;
     height: 100vh;
-    background-color: rgba(0,0,0,0.5);
     display: table;
 }
 
@@ -402,37 +401,35 @@ body {
     color: white;
 }
 
-.form-container {
-    margin: 10% 20%;
-    display: table;
-}
-
-.form-container form {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
 }
 
 .form-control {
     margin-top: 20px;
 }
 
-.form-container .button {
+
+#submit-button {
     margin-top: 40px;
     background-color: #999999;
-    color: black;
+    color: #fafafa;
     border: 0;
 }
 
-.form-container .button:hover {
+#submit-button:hover {
     background-color: #E74C3C;
     color: white;
 }
 
 @media (max-width: 576px) {
-    .form-container {
-    margin: 10% 5%;
-    display: table;
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 90%;
 }
 }
 

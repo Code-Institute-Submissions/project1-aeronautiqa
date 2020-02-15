@@ -70,21 +70,21 @@
 
 
 	<!-- Home Page-->
-    <!-- parallax.js library downloaded from "https://pixelcog.github.io/parallax.js/" data attributes below set as per this website -->
+	<!-- parallax.js library downloaded from "https://pixelcog.github.io/parallax.js/" data attributes below set as per this website -->
 	<div id="home" class="container-fluid home-image-container parallax-window" data-parallax="scroll"
 		data-image-src="assets/images/hero-image.jpg" data-speed=0.6>
-			<div class="row home-image-text">
-				<section class="callout jumbotron">
-					<h1>Aeronaut<span class="jumbotron-IQ">IQ</span>a</h1>
-					<p class="lead">Solutions for Aviation</p>
+		<div class="row home-image-text">
+			<section class="callout jumbotron">
+				<h1>Aeronaut<span class="jumbotron-IQ">IQ</span>a</h1>
+				<p class="lead">Solutions for Aviation</p>
+				<br>
+				<p class="lead-text">Independent developer of web-based software solutions supporting
+					various aspects of air transport business and operations. </p>
+				<br>
+				<p class="more-info">More Info
 					<br>
-					<p class="lead-text">Independent developer of web-based software solutions supporting
-						various aspects of air transport business and operations. </p>
-					<br>
-					<p class="more-info">More Info
-						<br>
-						<i class="fas fa-chevron-down"></i></p>
-				</section>
+					<i class="fas fa-chevron-down"></i></p>
+			</section>
 		</div>
 	</div>
 
@@ -342,14 +342,19 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col form-container">
-				<form id="contact-form">
-                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                    <input type="text" name="organization" id="organization" class="form-control" placeholder="Organization" required />
-                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email Address" required />
-                    <textarea rows="5" name="requestdetails" id="requestdetails" class="form-control" placeholder="Request Details" required></textarea>
-                    <button type="submit" class="btn btn-secondary button">Send Project Request</button>
-				</form>
+			<div class="col">
+				<div class="center-form">
+					<form id="contact-form">
+						<input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+						<input type="text" name="organization" id="organization" class="form-control" placeholder="Organization" required />
+						<input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email Address" required />
+						<textarea rows="5" name="requestdetails" id="requestdetails" class="form-control" placeholder="Request Details" required></textarea>
+						<div class="text-center">
+							<!-- functionality of submit button copied from https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive-->
+							<input type="submit" value="Send Project Request" class="btn btn-secondary" id="submit-button">
+                        </div>
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -563,7 +568,7 @@
 		</div>
 	</div>
 
-    <!-- Submit -->
+	<!-- Submit -->
 	<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered" role="document">
 			<div class="modal-content">
@@ -578,7 +583,7 @@
 					<p>Data sumitted via Contact form are not being saved or processed in any way.</p>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">I understand</button>
 				</div>
 			</div>
 		</div>
