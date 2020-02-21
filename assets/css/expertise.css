@@ -1,0 +1,80 @@
+/* -------------------------------------------------------------------------------------------------------Expertise */
+
+.container-expertise {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+/* positionining of expertise text box */
+.expertise-text {
+    font-family: "Roboto", sans-serif;
+    background-color: #fafafa;
+    width: 80%;
+    min-height: 160px;
+    z-index: 1;
+    position: relative;
+    top: -80px;
+    border-color: #505050;
+    border-width: 1px;
+    box-shadow: 4px 4px rgba(100,100,100,0.5);
+    margin: auto;
+    display: table;
+}
+
+.expertise {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5%;
+}
+
+
+.expertise-text h4 {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+.expertise-text hr {
+    border-color: #505050;
+    width: 50%;
+}
+
+.expertise-image {
+    overflow: hidden;
+}
+
+.expertise-image a {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+/* hover behaviour of expertise links - image + text */
+
+.expertise-image img {
+    transition: transform 1s ease;
+}
+
+.expertise-image a:hover {
+    font-family: "Roboto", sans-serif;
+    color: #E74C3C;
+    text-decoration: none;
+}
+
+.expertise-image a:hover img {
+    transform: scale(1.05);
+}
+
+.modal-body {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* resize of modal text font for extra small screens */
+@media (max-width: 576px) {
+    .modal-body {
+        font-size: 12px;
+    }
+}

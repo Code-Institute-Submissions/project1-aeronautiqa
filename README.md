@@ -104,7 +104,7 @@ Images were resized to fit the website design and to reduce website loading time
 ### Acknowledgements
 The navbar scroll effect JS code was copied from [Stack Overflow](https://stackoverflow.com/questions/55360887/navbar-not-functioning-like-its-supposed-to).
 
-Parallax effect with respective JS library of home background image and contact background image was downloaded from [Simple Parallax Scrolling parallax.js](https://pixelcog.github.io/parallax.js/).
+Parallax effect with respective JS library of home background image and contact background image uses [Simple Parallax Scrolling parallax.js](https://pixelcog.github.io/parallax.js/). Respective CDN library link used.
 
 Bootstrap, Stack Overflow, W3C webpages were used as reference throught the entire development process.
 

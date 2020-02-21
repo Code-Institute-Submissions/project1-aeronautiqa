@@ -1,0 +1,107 @@
+/* -------------------------------------------------------------------------------------------------------Home */
+
+.home-image-container {
+    padding: 0;
+    height: 100vh;
+    display: table;
+}
+
+
+.home-image-text {
+    padding-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 100;
+    color: #fafafa;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+
+/* "IQ Solutions for Aviation" message formatting and color change after load */
+.jumbotron-IQ {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: #fafafa;
+
+    animation-name: home-message-color-change;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+.jumbotron .lead{
+    font-family: "Rubik", sans-serif;
+    color: #fafafa;
+    font-size: 26px;
+    font-weight: 200;
+    text-transform: uppercase;
+
+    animation-name: home-message-color-change;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes home-message-color-change {
+    from {
+        color: #fafafa;
+    }
+    to {
+        color: #E74C3C;
+    }
+}
+
+
+
+.jumbotron .lead-text {
+    font-family: "Rubik", sans-serif;
+    color: #fafafa;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.more-info {
+    margin-top: 25px;
+    color: #fafafa;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.more-info i {
+    font-size: 30px;
+}
+
+/* resize of introduction message for extra small screens */
+
+@media (max-width: 576px) {
+.jumbotron h1 {
+    font-size: 2.5rem;
+}
+.jumbotron .lead{
+    font-size: 20px;
+}
+.jumbotron .lead-text {
+    font-size: 16px;
+}
+.more-info {
+    font-size: 12px;
+}
+.more-info i {
+    font-size: 25px;
+}
+}

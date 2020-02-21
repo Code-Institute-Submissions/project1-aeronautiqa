@@ -1,0 +1,125 @@
+/* -------------------------------------------------------------------------------------------------------NavBar Formatting */
+
+/* Default navbar style */
+.navbar {
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    z-index: 2;
+}
+
+/* Navbar style after scroll - fixing postion and changing background of navbar */
+.navbar.scrolled {
+  background-color: rgba(50,50,50,0.90) !important;
+  transition: background-color 400ms linear;
+  position: fixed;
+  width: 100%;
+  border: 0;
+  z-index: 2;
+}
+
+/* Changing toggler dropdown list background color for better legibility for medium, small and extra small screens */
+.show {
+    background-color: rgba(50,50,50,0.90);
+}
+
+.collapsed {
+    background-color: rgba(0,0,0,0);
+}
+
+@media (min-width: 992px) {
+.navbar-expand-lg .show,
+.navbar-expand-lg .collapsed {
+    background-color: rgba(0,0,0,0);
+}
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+   }
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 200;
+    color: #fafafa;
+}
+
+.navbar-brand:hover {
+    font-size: 30px;
+    font-weight: 200;
+    color: #fafafa;
+}
+
+.navbar-brand-image {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Resizing logo font for extra small screens */
+@media (max-width: 576px) {
+.navbar-brand {
+    font-size: 20px;
+}
+.navbar-brand-image {
+    width: 20px;
+    height: 20px;
+}
+}
+
+.IQ-highlight {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: #E74C3C;
+}
+
+.main-menu ul {
+    margin-right: 30px;
+}
+
+.main-menu li {
+    padding: 5px;
+}
+
+
+.language ul {
+    margin: 0;
+    padding: 0;
+}
+
+.language li {
+    margin: 0;
+    padding: 0;
+}
+
+.language .nav-link {
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    text-align: center;
+}
+
+.language .list-inline-item {
+    margin-right: 4px;
+}
+
+
+/* navbar links scrollspy and hover behaviour*/
+.nav-link {
+    color: #fafafa;
+}
+
+
+.nav-link:hover {
+    color: #E74C3C;
+}
+
+.active span {
+    color: #E74C3C;
+    font-weight: 400;
+}
+
+.lang-active span {
+    color: #E74C3C;
+    font-weight: 400;
+}

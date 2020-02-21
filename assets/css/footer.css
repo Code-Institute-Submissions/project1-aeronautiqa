@@ -1,0 +1,107 @@
+/* -------------------------------------------------------------------------------------------------------Footer */
+
+.footer {
+    background-color: black;
+}
+
+/* web navigation footer links */ 
+.footer-links {
+    padding: 10px 0;
+    margin: auto;
+    display: table;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer-links a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #E74C3C;
+    text-decoration: none;
+}
+
+/* contact details */ 
+
+.footer-contact-details {
+    padding: 10px 0;
+    margin: auto;
+    color: white;
+    font-size: 14px;
+    display: table;
+}
+
+.contact-details {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contact-details p {
+    margin: 0;
+}
+
+.footer-contact-details .IQ {
+    color: #E74C3C;
+    font-weight: 700;
+}
+
+/* social media links */ 
+
+.footer-social-media {
+    padding: 10px 0;
+    margin: auto;
+    display: table;
+}
+
+.social-media {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer-social-media ul {
+    list-style: none;
+}
+
+.footer-social-media li {
+    display: inline;
+}
+
+/* social meedia font awesome icons in cirles */
+.footer-social-media i {
+    width: 40px;
+    height: 40px;
+    padding: 10px 0;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid white;
+    margin: 5px;
+}
+
+
+/* hover behaviour of social meedia font awesome icons */
+.footer-social-media a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-social-media a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-social-media a:hover i {
+    background-color: #E74C3C;
+    border: 1px solid #E74C3C;
+}

@@ -1,0 +1,79 @@
+/* -------------------------------------------------------------------------------------------------------Customers */
+
+.container-customers {
+    background-color: #eaeaea;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+/* customer images in circles */
+.customer-image {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;  
+}
+
+
+.collapse-format {
+    background-color: rgba(0,0,0,0);
+}
+
+
+.card {
+    background-color: rgba(0,0,0,0);
+    border: 0;
+}
+
+.card-body {
+    padding: 1%;
+}
+
+.card-body p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.card-body footer {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.card-header {
+    background-color: rgba(0,0,0,0);
+    border: 0;
+}
+
+.customer-link img {
+    transition: transform 1s ease;
+}
+
+.customer-link h4 {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    text-transform: uppercase;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+}
+
+/* hover behaviour of customer links - image + text */
+
+.card-header a:hover img {
+    transform: scale(1.05);
+}
+
+.card-header a:hover h4 {
+    font-family: "Roboto", sans-serif;
+    color: #E74C3C;
+    text-decoration: none;
+}
+.card-header a:hover {
+    text-decoration: none;
+}

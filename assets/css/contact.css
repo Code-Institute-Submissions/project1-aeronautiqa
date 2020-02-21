@@ -1,0 +1,53 @@
+/* -------------------------------------------------------------------------------------------------------Contact */
+
+.container-contact {
+    background-color: rgba(50,50,50,0.5);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.container-contact h2 {
+    color: white;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.form-control {
+    margin-top: 20px;
+}
+
+
+#submit-button {
+    margin-top: 40px;
+    background-color: #999999;
+    color: #fafafa;
+    border: 0;
+}
+
+#submit-button:hover {
+    background-color: #E74C3C;
+    color: white;
+}
+
+
+/* adjusting form width for extra small screens */
+@media (max-width: 576px) {
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 80%;
+    }
+    #submit-button {
+    margin-top: 40px;
+    background-color: #999999;
+    color: #fafafa;
+    border: 0;
+    }
+}

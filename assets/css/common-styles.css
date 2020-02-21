@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900|Rubik:100,200,300,400,500,600,700,800,900');
+
+body {
+    font-family: "Roboto", sans-serif;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* -------------------------------------------------------------------------------------------------------Headings */
+h2 {
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #505050
+}
+
+.modal-title {
+    text-transform: uppercase;
+}
+
+/* -------------------------------------------------------------------------------------------------------Horizontal Rules */
+
+hr {
+    border-color: #E74C3C;
+    height: 3px;
+}
