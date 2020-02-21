@@ -55,13 +55,13 @@ Greyscale color scheme with orange details.
 
 
 ## Features
-* Bootstrap Scrollspy - updating navigation bar based on scroll position to indicated which link is currently active
-* Parallax effect of home image and contact image
+* Bootstrap Scrollspy - updating navigation bar based on scroll position to indicate which link is currently active
+* Parallax effect of home background image and contact background image
 * Two language versions
 * Responsive language bar - changes position in navigation bar depending on the screen width
 * Navigation bar - change from transparent to semi transparent dark grey after scroll
 * Simple animation (smooth font re-coloring) in Home section of the website
-* Customized hover effect in Expertise section 
+* Customized hover effect in Expertise and Customers section 
 * Bootstrap responsive navigation bar
 * Bootstrap Modals - used in Expertise section
 * Bootstrap Collapse - used in Reference section
@@ -83,7 +83,7 @@ Greyscale color scheme with orange details.
 ### Browsers and devices
 * Responsivness has been tested using Inspect feature of Chrome and also on [Am I Responsive?](http://ami.responsivedesign.is) website.
 * Website has been tested on iPhone XS plus. Other mobile devices screen sizes were emulated via Chrome Inspect feature.
-* Website has been tested on multiple browsers (Chrome, Safari, Internet Explorer, Edge, Opera and FireFox). There were minor layot drawback on Internet Explorer and these were fixed.
+* Website has been tested on multiple browsers (Chrome, Safari, Internet Explorer, Edge, Opera and FireFox). There were minor layout drawback on Internet Explorer and these were fixed.
 
 
 ## Deployment
